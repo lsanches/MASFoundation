@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.platform      = :ios, '9.0'
     s.requires_arc  = true
     s.source        = {
-        :http => 'https://github.com/lsanches/MASFoundation/tree/master/1.2.02/MASFoundation.zip'
+        :http => 'https://github.com/lsanches/MASFoundation/blob/master/1.2.02/MASFoundation.zip?raw=true'
     }
     s.vendored_frameworks = 'MASFoundation.framework'
 
